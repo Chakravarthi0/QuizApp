@@ -1,0 +1,36 @@
+@import url("main.css");
+
+/* body */
+.home-body {
+  text-align: center;
+  margin: 5rem 0;
+}
+
+.app-name {
+    font-size: 4.2rem;
+}
+
+.tag-line {
+  margin: 2rem 0;
+  font-size: 3.6rem;
+}
+
+.trending-head {
+  margin: 5rem;
+}
+
+.trending-container {
+  text-align: center;
+}
+
+.trending-quizzes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+@media screen and (max-width: 950px) {
+  .trending-quizzes {
+    grid-template-columns: repeat(auto-fill, minmax(31rem, 1fr));
+  }
+}
