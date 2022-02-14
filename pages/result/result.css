@@ -2,8 +2,6 @@
 @import url("../question/question.css");
 
 .result-head{
-    font-size: 3.5rem;
-    text-align: center;
     margin: 3rem 0;
 }
 
@@ -48,9 +46,6 @@
 }
 
 @media screen and (max-width: 500px) {
-    .result-head{
-        font-size: 2.5rem;
-    }
     .final-score{
         font-size: 2.2rem;
     }

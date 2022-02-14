@@ -18,8 +18,6 @@
 }
 
 .question-head{
-    font-size: 3.5rem;
-    text-align: center;
     margin: 3rem 0;
 }
 
@@ -49,17 +47,13 @@
 
 .next-btn{
     transform: translateY(-50%);
-    margin-top: 5rem;
     font-size: 2rem;
     padding: 1rem;
-    margin-bottom: 3rem;
+    margin:5rem 0 3rem;
     border-radius: 5px;
 }
 
 @media screen and (max-width: 500px) {
-    .question-head{
-        font-size: 2.5rem;
-    }
     .question-statement{
         font-size: 2rem;   
     }

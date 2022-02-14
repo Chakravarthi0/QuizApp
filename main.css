@@ -4,10 +4,16 @@
     --dark-purple: #49118c;
     --primary-color: #731DD8;
     --primary-dark: #49118c;
+    --page-heading: 3.5rem;
 }
 
 *{
     font-size: 1.6rem;
+}
+
+.page-head{
+    text-align: center;
+    font-size: var(--page-heading);
 }
 
 .btn-wide{
@@ -84,4 +90,10 @@ margin-top: 1rem;
 
 .footer{
     margin-top: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+    .page-head{
+        font-size: 2.5rem;
+    }
 }
