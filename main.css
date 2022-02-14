@@ -1,0 +1,99 @@
+@import url("https://protean-ui.netlify.app/main.css");
+
+:root{
+    --dark-purple: #49118c;
+    --primary-color: #731DD8;
+    --primary-dark: #49118c;
+    --page-heading: 3.5rem;
+}
+
+*{
+    font-size: 1.6rem;
+}
+
+.page-head{
+    text-align: center;
+    font-size: var(--page-heading);
+}
+
+.btn-wide{
+    width: 90%;
+}
+
+.nav-links-container {
+    gap: 3rem;
+    align-items: center;
+}
+
+.link.btn{
+    border-radius: 4px;
+}
+
+.input{
+    background-color: var(--white);
+    border: none;
+}
+
+.btn-primary-inv{
+    background-color: var(--white);
+    color: var(--primary-color);
+    border-radius: 2px;
+    border: 2px solid var(--primary-color);
+}
+
+.btn-primary-inv:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+.nav-btn{
+    border: 2px solid var(--white);
+}
+
+.nav-btn:hover{
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: var(--white);
+}
+
+/* card */
+.card{
+padding-bottom: 2rem;
+background-color: var(--white);
+text-align: center;
+}
+
+.quiz-card{
+width: 30rem;
+background-color: var(--white-pure);
+box-shadow: var(--box-shadow);
+margin: 2rem 0;
+}
+
+.quiz-img{
+border-top-right-radius: 1rem;
+border-top-left-radius: 1rem;
+height: 20rem;
+}
+
+.quiz-title{
+font-size: 2rem;
+margin-top: 1rem;
+}
+
+.card-actions{
+    justify-content: center;
+}
+
+/* footer */
+
+.footer{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+    .page-head{
+        font-size: 2.5rem;
+    }
+}

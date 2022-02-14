@@ -1,0 +1,52 @@
+@import url("../../main.css");
+@import url("../question/question.css");
+
+.result-head{
+    margin: 3rem 0;
+}
+
+.final-score{
+    font-size: 2.8rem;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.question-body{
+    margin-bottom: 3rem;
+}
+
+.option{
+    cursor: default;
+}
+
+.option:hover{
+    background-color: var(--white-pure);
+}
+
+.next-btn{
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.correct-answer{
+    background-color: var(--success);
+    color: var(--white);
+}
+
+.correct-answer:hover{
+    background-color: var(--success);
+}
+
+.wrong-answer{
+    background-color: var(--danger);
+    color: var(--white);
+}
+.wrong-answer:hover{
+    background-color: var(--danger);
+}
+
+@media screen and (max-width: 500px) {
+    .final-score{
+        font-size: 2.2rem;
+    }
+}
