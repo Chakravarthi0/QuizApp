@@ -44,11 +44,40 @@
       </nav>
     </header>
 
+    <!-- quit -->
+
+    <button modal-btn-for="quit-modal" class="btn btn-danger quit-btn modal-open-btn">Quit</button>
+
+    <div id="quit-modal" class="modal-bg hidden">
+      <div class="modal position-rel">
+        <h2 class="text-large list-head">Quit quiz</h2>
+        <i
+          modal-btn-for="quit-modal"
+          class="material-icons modal-close-btn position-abs top-0 right-0"
+          >close</i
+        >
+        <p>Are you sure that you want to quit?</p>
+        <div class="modal-actions">
+          <button
+            modal-btn-for="quit-modal"
+            class="btn btn-primary modal-close-btn"
+          >
+            No
+          </button>
+          <button
+            modal-btn-for="quit-modal"
+            class="btn btn-primary-ol modal-close-btn"
+          >
+            Yes
+          </button>
+        </div>
+      </div>
+    </div>
+
     <h1 class="page-head question-head">Rick And Morty</h1>
-    
+
     <!-- Question -->
     <div class="question-body">
-
       <div class="quiz-stat">
         <p>Question: 5/5</p>
         <p>02:22</p>
@@ -63,12 +92,11 @@
         <p class="option">Universe Key</p>
         <p class="option">Portal gun</p>
         <p class="option">Tardis</p>
-    </div>
-    <a class="link" href="question-2.html">
+      </div>
+      <a class="link" href="question-2.html">
         <button class="btn btn-primary next-btn">Next</button>
-    </a>
+      </a>
     </div>
-
 
     <!-- footer -->
 
