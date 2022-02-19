@@ -14,6 +14,7 @@
 .page-head{
     text-align: center;
     font-size: var(--page-heading);
+    margin: 3rem;
 }
 
 .btn-wide{
@@ -90,6 +91,12 @@ margin-top: 1rem;
 
 .footer{
     margin-top: 3rem;
+}
+
+.footer-fixed{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 
 @media screen and (max-width: 500px) {

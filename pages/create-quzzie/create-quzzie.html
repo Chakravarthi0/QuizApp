@@ -18,11 +18,10 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
 
-    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="create-quzzie.css" />
   </head>
   <body>
     <!-- navbar -->
-
     <header class="navbar-container bg-primary">
       <a class="link white" href="../../index.html">
         <h2 class="nav-logo">WitTest</h2>
@@ -45,54 +44,27 @@
       </nav>
     </header>
 
-    <!-- Profile card -->
+    <h1 class="create-quiz-head">Create Quiz</h1>
 
-    <div class="sign-x-form-container">
-      <div class="sign-x-form user-profile">
-        <div class="profile-card-head">
-          <h2 class="text-center">My Profile</h2>
-          <i class="material-icons edit-icon">mode_edit</i>
+    <!-- create-quzzie -->
+
+      <form class="quiz-info">
+        <div>
+          <label for="quiz-title">Enter Title</label>
+          <input id="quiz-title" type="text" required />
         </div>
-        <p class="avatar avatar-md avatar-initial bg-secondary">SC</p>
-        <p class="user-name">Saran Chakravarthi</p>
-        <p class="mail">saran@test.com</p>
-        <p class="mob-no">+91 9999999999</p>
-        <button class="btn btn-primary log-out-btn">
-          <a class="link btn" href="../authentication/signout.html">Log Out</a>
-        </button>
-      </div>
-    </div>
-    
-    <!-- Quiz Board -->
-    
-    
-    <h2 class="page-head">Quiz Board</h2>
-    <div class="quiz-board-container flex-container"> 
-      <div class="quiz-board-item">
-        <h4>Quiz played</h4>
-        <p>100</p>
-      </div>
-      
-      <p class="vl"></p>
 
-      <div class="quiz-board-item">
-        <h4>Total points</h4>
-        <p>385</p>
-      </div>
+        <div>
+          <label for="no-of-questions">Enter number of questions</label>
+          <input id="no-of-questions" type="number" min="3" max="10" required />
+        </div>
 
-      <p class="vl"></p>
-
-      <div class="quiz-board-item">
-        <h4>Knowledge level</h4>
-        <p>Expert</p>
-      </div>
-    </div>
-
-    
+        <button class="btn btn-primary">Next</button>
+      </form>
 
     <!-- Footer -->
 
-    <footer class="footer bg-primary">
+    <footer class="footer footer-fixed bg-primary">
       <p>Made with ☕ & ❤️</p>
       <ul class="social-links list">
         <li>

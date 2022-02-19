@@ -1,0 +1,41 @@
+@import url("../../main.css");
+
+label {
+  font-size: 2rem;
+}
+
+input {
+  padding: 0 3px;
+  margin-left: 1rem;
+}
+
+.create-quiz-head {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.quiz-info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 3rem;
+  max-width: 40rem;
+  box-shadow: var(--box-shadow);
+  margin: 3rem auto;
+  padding: 4rem 3rem;
+  border-radius: 5px;
+  background-color: var(--white-pure);
+}
+
+.quiz-info > .btn {
+  max-width: 10rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 500px) {
+  input {
+    margin: 1rem 0;
+  }
+}

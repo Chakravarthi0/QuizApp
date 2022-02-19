@@ -1,0 +1,23 @@
+@import url("../../main.css");
+
+.create-questions-form {
+  flex-direction: column;
+  margin: 5rem 0;
+}
+
+select {
+  border-radius: 1rem;
+  background-color: var(--white-pure);
+  padding: 4px;
+  flex-wrap: wrap;
+}
+
+h3{
+    margin: 2rem 0;
+}
+
+.options-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
