@@ -6,6 +6,12 @@
     margin: auto;
 }
 
+.quit-btn{
+    position: absolute;
+    right: 1rem;
+    margin: 1rem 0;
+}
+
 .quiz-stat{
     display: flex;
     justify-content: space-between;
@@ -54,6 +60,13 @@
 }
 
 @media screen and (max-width: 500px) {
+    .quit-btn{
+        right: 5px;
+        margin: 5px 0 4rem 0;
+    }
+    .question-head{
+        margin: 4rem 0;
+    }
     .question-statement{
         font-size: 2rem;   
     }
