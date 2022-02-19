@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="create-quzzie.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <header class="navbar-container bg-primary">
+      <a class="link white" href="../../index.html">
+        <h2 class="nav-logo">WitTest</h2>
+      </a>
+
+      <nav>
+        <ul class="list nav-links-container">
+          <li class="nav-search-container">
+            <input class="input nav-search" type="text" placeholder="Search" />
+          </li>
+          <li>
+            <a
+              class="link btn btn-primary nav-btn"
+              href="../category/category.html"
+              >Browse</a
+            >
+          </li>
+        </ul>
+        <i class="material-icons hamburger-icon">menu</i>
+      </nav>
+    </header>
+
+    <h1 class="create-quiz-head">Create Quiz</h1>
+
+    <!-- create-quzzie -->
+
+      <form class="quiz-info">
+        <div>
+          <label for="quiz-title">Enter Title</label>
+          <input id="quiz-title" type="text" required />
+        </div>
+
+        <div>
+          <label for="no-of-questions">Enter number of questions</label>
+          <input id="no-of-questions" type="number" min="3" max="10" required />
+        </div>
+
+        <button class="btn btn-primary">Next</button>
+      </form>
+
+    <!-- Footer -->
+
+    <footer class="footer footer-fixed bg-primary">
+      <p>Made with ☕ & ❤️</p>
+      <ul class="social-links list">
+        <li>
+          <a class="link" href="https://github.com/Chakravarthi0">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://www.linkedin.com/in/saran-chakravarthi">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="link" href="https://twitter.com/SaranChakravar3">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+  <script src="https://protean-ui.netlify.app/main.js"></script>
+</html>
