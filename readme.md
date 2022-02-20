@@ -28,8 +28,6 @@ Clone the repository or download the repository as zip file and unzip it in your
     - Sign In
     - sign Out
  - Create Quizzes
+ - Remember me while login
 
 https://user-images.githubusercontent.com/57091383/154842962-0a906d23-a767-4232-9d46-b4c58db2540f.mp4
-
-
- - Remember me while login
